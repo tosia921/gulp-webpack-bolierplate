@@ -1,0 +1,43 @@
+{
+	"name": "game",
+	"version": "1.0.0",
+	"description": "Tomek Platform Game",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Tomasz Posiadala",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.16.0",
+		"@babel/plugin-transform-runtime": "^7.15.8",
+		"@babel/preset-env": "^7.16.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.2.3",
+		"babel-polyfill": "^6.26.0",
+		"babel-preset-latest": "^6.24.1",
+		"browser-sync": "^2.27.5",
+		"cssnano": "^5.0.8",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-eslint": "^6.0.0",
+		"gulp-postcss": "^9.0.1",
+		"gulp-prettier": "^4.0.0",
+		"gulp-sass": "^5.0.0",
+		"gulp-sass-glob": "^1.1.0",
+		"gulp-terser": "^2.1.0",
+		"gulp-webp": "^4.0.1",
+		"sass": "^1.43.2",
+		"webpack": "^5.61.0",
+		"webpack-stream": "^7.0.0"
+	},
+	"dependencies": {
+		"@babel/polyfill": "^7.12.1",
+		"@babel/runtime": "^7.15.4",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-sourcemaps": "^3.0.0"
+	}
+}
