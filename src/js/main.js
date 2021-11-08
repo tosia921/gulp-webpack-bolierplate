@@ -1,6 +1,7 @@
-
 //////////////////////////////////////
-import {func, asyncFunc} from './file.js';
+import { func, asyncFunc } from './file.js';
 
 func();
 asyncFunc();
+
+const tomek = 1;
