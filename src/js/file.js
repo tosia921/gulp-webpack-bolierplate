@@ -1,5 +1,12 @@
-const func = () => {
+export const func = () => {
     console.log("imported");
 }
 
-export default func;
+const doSomethingAsync = () => {
+    console.log("async!");
+}
+
+export const asyncFunc = async () => {
+    await doSomethingAsync();
+  }
+

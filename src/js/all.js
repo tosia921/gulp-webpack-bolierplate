@@ -1,3 +1,6 @@
-import func from './func.js';
+
+//////////////////////////////////////
+import {func, asyncFunc} from './file.js';
 
 func();
+asyncFunc();
